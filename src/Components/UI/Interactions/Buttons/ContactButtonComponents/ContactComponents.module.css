@@ -1,11 +1,20 @@
 .iconA {
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+
   text-decoration: none;
   color: var(--brandPrimary-color);
 
-  background-color: blue;
+  font-size: 34px;
+}
+
+.iconA:hover {
+  cursor: pointer;
 }
 
 .tooltip {
+  position: absolute;
   width: fit-content;
   padding: 8px;
   border-radius: 6px;

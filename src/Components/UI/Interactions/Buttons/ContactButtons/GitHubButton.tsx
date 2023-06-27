@@ -1,9 +1,9 @@
-import { FiGithub } from "react-icons/fi";
+import { LiaGithubSquare } from "react-icons/lia";
 
 import ContactButton from "../ContactButtonComponents/ContactButton";
 
 const GitHubButton = () => {
-  return <ContactButton Icon={FiGithub} contact={"Email"} />;
+  return <ContactButton Icon={LiaGithubSquare} contact={"GitHub"} />;
 };
 
 export default GitHubButton;
