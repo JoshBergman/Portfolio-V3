@@ -1,3 +1,5 @@
 .page-control {
   font-family: Montserrat, arial, sans-serif;
+  font-size: 25px;
+  color: var(--brandPrimary-color);
 }
