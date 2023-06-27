@@ -7,7 +7,8 @@ const LinkedInButton = () => {
     <ContactButton
       Icon={AiOutlineLinkedin}
       contact={"LinkedIn"}
-      modifySize={-2.2}
+      modifySize={-3}
+      marginTop={3.5}
     />
   );
 };

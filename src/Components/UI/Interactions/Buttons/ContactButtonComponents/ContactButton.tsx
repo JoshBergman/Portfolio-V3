@@ -9,9 +9,15 @@ interface IContactButtonProps {
   Icon: IconType;
   contact: string;
   modifySize?: number;
+  marginTop?: number;
 }
 
-const ContactButton = ({ Icon, contact, modifySize }: IContactButtonProps) => {
+const ContactButton = ({
+  Icon,
+  contact,
+  modifySize,
+  marginTop,
+}: IContactButtonProps) => {
   const [tooltipState, setTooltipState] = useState(false);
 
   const thisContact = contactInfo[contact];
@@ -19,10 +25,15 @@ const ContactButton = ({ Icon, contact, modifySize }: IContactButtonProps) => {
   const link = thisContact.link;
 
   const baseIconSize = 34;
+  const baseMarginTop = 0;
+  let finalMarginTop = baseMarginTop;
   let finalIconSize = baseIconSize;
 
   if (modifySize) {
     finalIconSize += modifySize;
+  }
+  if (marginTop) {
+    finalMarginTop += marginTop;
   }
 
   const toggleTooltip = () => {
@@ -40,6 +51,7 @@ const ContactButton = ({ Icon, contact, modifySize }: IContactButtonProps) => {
         rel="noreferrer"
         style={{
           fontSize: finalIconSize + "px",
+          marginTop: finalMarginTop + "px",
         }}
       >
         <Icon className="icon" />

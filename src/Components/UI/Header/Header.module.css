@@ -1,0 +1,20 @@
+.headerContainer {
+  position: fixed;
+  width: 100%;
+}
+
+.iconContainer {
+  width: clamp(220px, 30%, 400px);
+  float: right;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+@media (max-width: 600px) {
+  .iconContainer {
+    width: 100%;
+    float: none;
+  }
+}

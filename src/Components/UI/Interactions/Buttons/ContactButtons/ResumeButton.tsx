@@ -7,7 +7,8 @@ const ResumeButton = () => {
     <ContactButton
       Icon={BsFileEarmarkPerson}
       contact={"Resume"}
-      modifySize={-5}
+      modifySize={-8}
+      marginTop={6.5}
     />
   );
 };
