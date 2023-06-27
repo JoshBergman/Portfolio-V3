@@ -1,0 +1,16 @@
+.iconA {
+  text-decoration: none;
+  color: var(--brandPrimary-color);
+
+  background-color: blue;
+}
+
+.tooltip {
+  width: fit-content;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: rgb(0, 0, 0);
+
+  color: white;
+  font-size: 18px;
+}
