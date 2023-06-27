@@ -1,3 +1,5 @@
+/* Color variables are declared in index.css */
+
 .page-control {
   font-family: Montserrat, arial, sans-serif;
   font-size: 55px;
@@ -5,4 +7,13 @@
 
 .icon {
   color: var(--brandPrimary-color);
+}
+
+.white-section,
+.blue-section {
+  background-color: #fff7ea;
+}
+
+.blue-section {
+  background-color: var(--brandPrimary-color);
 }

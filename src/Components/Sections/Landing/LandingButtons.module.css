@@ -1,0 +1,8 @@
+.buttonsContainer {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+
+  width: fit-content;
+  font-size: 18px;
+}
