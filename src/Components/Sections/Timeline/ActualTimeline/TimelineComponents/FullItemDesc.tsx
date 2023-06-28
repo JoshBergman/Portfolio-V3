@@ -2,7 +2,7 @@ import styles from "./Timeline.module.css";
 interface IFullItemDescProps {
   info: {
     title: string;
-    desc: string;
+    desc: React.ReactNode;
     date: string;
   };
 }

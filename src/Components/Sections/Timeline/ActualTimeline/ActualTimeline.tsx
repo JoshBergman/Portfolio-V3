@@ -8,11 +8,6 @@ import FullItemDesc from "./TimelineComponents/FullItemDesc";
 
 const ActualTimeline = () => {
   const [timelineDisplayState, setTimelineDisplayState] = useState(2);
-  const defaultInfo = {
-    title: "Click Timeline Item To View",
-    date: "Or Hover",
-    desc: "",
-  };
 
   const renderTimelineItems = () => {
     const events = timelineInfo.concat([]);
@@ -35,10 +30,8 @@ const ActualTimeline = () => {
         <div className={styles.baseLine}>{renderTimelineItems()}</div>
       </div>
       <div className={styles.descBreathingRoom}>
-        {timelineDisplayState >= 0 ? (
+        {timelineDisplayState >= 0 && (
           <FullItemDesc info={timelineInfo[timelineDisplayState]} />
-        ) : (
-          <FullItemDesc info={defaultInfo} />
         )}
       </div>
     </div>

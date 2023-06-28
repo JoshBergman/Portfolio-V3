@@ -6,7 +6,7 @@ import ItemTitle from "./ItemTitle";
 interface ITimelineItemProps {
   info: {
     title: string;
-    desc: string;
+    desc: React.ReactNode;
     date: string;
   };
   thisIndex: number;
