@@ -28,8 +28,10 @@ const ActualTimeline = () => {
       <div className={styles.breathingRoom}>
         <div className={styles.baseLine}>{renderTimelineItems()}</div>
       </div>
-      <div className={styles.breathingRoom}>
-        <FullItemDesc />
+      <div className={styles.descBreathingRoom}>
+        {timelineDisplayState >= 0 && (
+          <FullItemDesc info={timelineInfo[timelineDisplayState]} />
+        )}
       </div>
     </div>
   );

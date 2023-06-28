@@ -1,7 +1,7 @@
 const timelineInfo: { title: string; desc: string; date: string }[] = [
   {
     title: "Enrolled in Computer Science",
-    desc: "Enrolled for two years at community college then later transferred to Metropolitan State University.",
+    desc: "Enrolled for two years at Inver Hills Community College then later transferred to Metropolitan State University.",
     date: "September 1, 2020",
   },
   {
@@ -10,7 +10,7 @@ const timelineInfo: { title: string; desc: string; date: string }[] = [
     date: "October 15, 2022",
   },
   {
-    title: "First Web Contract",
+    title: "First Web Development Contract",
     desc: "My first professional front-end expierence. I saw the complete design, construction, and deployment of a website for a local frame shop. Can be found in projects sections, or at: https://mikesframe-25201.web.app/home",
     date: "October 20, 2022",
   },

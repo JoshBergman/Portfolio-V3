@@ -31,11 +31,42 @@
   width: 100%;
 }
 
-.breathingRoom {
+.breathingRoom,
+.descBreathingRoom {
   height: 250px;
   width: 100%;
+
+  text-overflow: ellipsis;
+  overflow: hidden;
 
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.descBreathingRoom {
+  margin: 50px 0;
+  padding: 0;
+  border-radius: 5px;
+  box-shadow: -4px -4px 5px #656565 inset, 4px 4px 3px #656565 inset;
+  background-color: var(--brandLightPrimary-color);
+  color: var(--brandPrimary-color);
+  width: clamp(580px, 80%, 900px);
+
+  text-align: center;
+}
+
+@media (max-width: 1000px) {
+  .descBreathingRoom {
+    width: 95%;
+    height: 300px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .descBreathingRoom {
+    overflow: hidden;
+    overflow-y: scroll;
+  }
 }
