@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import styles from "./ActualTimeline.module.css";
 import timelineInfo from "../../../../Info/TimelineInfo";
 
 import TimelineItem from "./TimelineComponents/TimelineItem";
+import FullItemDesc from "./TimelineComponents/FullItemDesc";
 
 const ActualTimeline = () => {
   const [timelineDisplayState, setTimelineDisplayState] = useState(-1);
@@ -23,9 +24,14 @@ const ActualTimeline = () => {
   };
 
   return (
-    <React.Fragment>
-      <div className={styles.baseLine}>{renderTimelineItems()}</div>
-    </React.Fragment>
+    <div className={styles.verticalAlignContainer}>
+      <div className={styles.breathingRoom}>
+        <div className={styles.baseLine}>{renderTimelineItems()}</div>
+      </div>
+      <div className={styles.breathingRoom}>
+        <FullItemDesc />
+      </div>
+    </div>
   );
 };
 

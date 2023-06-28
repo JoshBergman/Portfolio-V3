@@ -6,7 +6,7 @@
   border: 2px solid black;
 
   border-radius: 100%;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 .timelineBlipBtn:hover {
@@ -22,24 +22,26 @@
   height: 20px;
   white-space: nowrap;
 
-  padding: 5px;
+  padding: 6px;
   border-radius: 5px;
 
   font-size: 16px;
 
   color: black;
-  background-color: rgb(255, 255, 255);
+  background-color: var(--brandLightPrimary-color);
   transition: all 0.3s ease-in-out;
+  font-family: Montserrat, arial, sans-serif;
 }
 
 .tail {
-  width: 10px;
-  background-color: black;
+  width: 5px;
+  border-radius: 2px;
+  background-color: var(--brandLightPrimary-color);
   transition: all 0.3s ease-in-out;
 }
 
 .titleContainer {
   display: absolute;
 
-  transform: translateY(-60px);
+  transform: translate(2px, -62px);
 }

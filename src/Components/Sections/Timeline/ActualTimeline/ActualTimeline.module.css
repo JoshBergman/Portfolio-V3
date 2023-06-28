@@ -10,6 +10,7 @@
 .baseLine {
   height: 8px;
   width: 80%;
+  max-width: 900px;
   margin: 50px auto;
 
   background-color: var(--brandLightPrimary-color);
@@ -18,4 +19,23 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.verticalAlignContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  height: 600px;
+  width: 100%;
+}
+
+.breathingRoom {
+  height: 250px;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
