@@ -1,6 +1,5 @@
 .timelineContainer {
   background-color: rgba(255, 255, 0, 0);
-  height: 100vh;
   color: var(--brandLightPrimary-color);
 
   display: flex;
@@ -9,9 +8,9 @@
 
 .baseLine {
   height: 8px;
-  width: 80%;
+  width: clamp(200px, 80%, 600px);
   max-width: 900px;
-  margin: 50px auto;
+  margin: 50px auto -60px auto;
 
   background-color: var(--brandLightPrimary-color);
   border-radius: 15px;
@@ -51,14 +50,14 @@
   box-shadow: -4px -4px 5px #656565 inset, 4px 4px 3px #656565 inset;
   background-color: var(--brandLightPrimary-color);
   color: var(--brandPrimary-color);
-  width: clamp(580px, 80%, 900px);
+  width: clamp(200px, 80%, 600px);
 
   text-align: center;
 }
 
 @media (max-width: 1000px) {
   .descBreathingRoom {
-    width: 95%;
+    width: 80%;
     height: 300px;
     padding: 0;
   }

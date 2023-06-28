@@ -8,9 +8,11 @@
 .white-section,
 .blue-section {
   background-color: var(--pagePrimary-color);
-  min-height: 100vh;
 }
 
 .blue-section {
-  background-color: var(--pageSecondary-color);
+  background: linear-gradient(
+    var(--pageSecondary-color),
+    var(--pageSecondaryFadeTo-color)
+  );
 }

@@ -11,14 +11,17 @@ interface ITimelineItemProps {
   };
   thisIndex: number;
   setDisplayState: React.Dispatch<React.SetStateAction<number>>;
+  displayState: number;
 }
 
 const TimelineItem = ({
   info,
   thisIndex,
   setDisplayState,
+  displayState,
 }: ITimelineItemProps) => {
   const [showTitleState, setShowTitleState] = useState(false);
+  const currHighlighted = displayState === thisIndex ? true : false;
 
   const clickTimelineEventHandler = () => {
     setDisplayState(thisIndex);
@@ -28,12 +31,20 @@ const TimelineItem = ({
     setShowTitleState((prevState) => !prevState);
   };
 
+  const buttonBackground = currHighlighted
+    ? "var(--brandSecondary-color)"
+    : "var(--brandLightPrimary-color)";
+  const buttonStyle = {
+    backgroundColor: buttonBackground,
+  };
+
   return (
     <button
       className={styles.timelineBlipBtn}
       onClick={clickTimelineEventHandler}
       onMouseEnter={toggleTitleState}
       onMouseLeave={toggleTitleState}
+      style={buttonStyle}
     >
       {showTitleState && <ItemTitle title={info.title} />}
     </button>

@@ -6,10 +6,11 @@
   border: 2px solid black;
 
   border-radius: 100%;
-  transition: all 0.15s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
-.timelineBlipBtn:hover {
+.timelineBlipBtn:hover,
+.timelineBlipBtn:focus {
   width: 25px;
   height: 25px;
   cursor: pointer;
@@ -37,7 +38,7 @@
   width: 5px;
   border-radius: 2px;
   background-color: var(--brandLightPrimary-color);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .titleContainer {
@@ -52,6 +53,8 @@
   width: 80%;
   text-align: center;
   margin: 0 auto;
+  color: var(--brandSecondary-color);
+  color: black;
 }
 
 .descTitle {
@@ -61,7 +64,7 @@
 .descDate {
   font-size: small;
   margin-bottom: 50px;
-  color: var(--brandSecondary-color);
+  color: black;
 }
 
 .descDesc {

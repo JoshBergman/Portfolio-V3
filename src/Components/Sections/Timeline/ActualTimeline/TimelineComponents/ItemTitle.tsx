@@ -12,11 +12,11 @@ const ItemTitle = ({ title }: IItemTitleProps) => {
 
   setTimeout(() => {
     setTailAnimationState(50);
-  }, 20);
+  }, 10);
 
   setTimeout(() => {
     setDivAnimationState(100);
-  }, 320);
+  }, 150);
 
   const tailYAnimate = tailAnimationState * -1;
   const tailStyle = {
