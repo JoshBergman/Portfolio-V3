@@ -1,0 +1,45 @@
+.timelineBlipBtn {
+  width: 20px;
+  height: 20px;
+
+  background-color: var(--brandLightPrimary-color);
+  border: 2px solid black;
+
+  border-radius: 100%;
+  transition: all 0.2s ease-in-out;
+}
+
+.timelineBlipBtn:hover {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  background-color: var(--brandSecondary-color);
+}
+
+.itemTitle {
+  transform: translate(-30px, -30px);
+  width: fit-content;
+  height: 20px;
+  white-space: nowrap;
+
+  padding: 5px;
+  border-radius: 5px;
+
+  font-size: 16px;
+
+  color: black;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.3s ease-in-out;
+}
+
+.tail {
+  width: 10px;
+  background-color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.titleContainer {
+  display: absolute;
+
+  transform: translateY(-60px);
+}

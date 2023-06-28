@@ -4,7 +4,7 @@
   margin: 0;
 
   text-decoration: none;
-  color: var(--brandPrimary-color);
+  color: inherit;
 
   font-size: 34px;
 }

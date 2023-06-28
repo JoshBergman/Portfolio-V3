@@ -10,6 +10,8 @@
   display: flex;
   justify-content: space-evenly;
   flex-wrap: nowrap;
+
+  color: black;
 }
 
 @media (max-width: 600px) {

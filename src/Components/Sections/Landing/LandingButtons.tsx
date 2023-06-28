@@ -8,8 +8,8 @@ import styles from "./LandingButtons.module.css";
 const LandingButtons = () => {
   return (
     <div className={styles.buttonsContainer}>
-      <ProjectsNavBtn />
       <TimelineNavBtn />
+      <ProjectsNavBtn />
       <AboutNavBtn />
       <ContactNavBtn />
     </div>

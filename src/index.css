@@ -1,6 +1,9 @@
 :root {
   --brandPrimary-color: rgb(68, 182, 226);
   --brandSecondary-color: rgb(68, 153, 237);
+  --brandLightPrimary-color: #fff7ea;
+  --pagePrimary-color: #fff7ea;
+  --pageSecondary-color: rgb(102, 153, 204);
 }
 
 body {

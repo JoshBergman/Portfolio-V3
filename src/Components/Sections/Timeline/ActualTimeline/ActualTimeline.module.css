@@ -1,6 +1,10 @@
 .timelineContainer {
   background-color: rgba(255, 255, 0, 0);
   height: 100vh;
+  color: var(--brandLightPrimary-color);
+
+  display: flex;
+  align-items: center;
 }
 
 .baseLine {
@@ -8,6 +12,10 @@
   width: 80%;
   margin: 50px auto;
 
-  background-color: white;
+  background-color: var(--brandLightPrimary-color);
   border-radius: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }

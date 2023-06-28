@@ -5,15 +5,12 @@
   font-size: 55px;
 }
 
-.icon {
-  color: var(--brandPrimary-color);
-}
-
 .white-section,
 .blue-section {
-  background-color: #fff7ea;
+  background-color: var(--pagePrimary-color);
+  min-height: 100vh;
 }
 
 .blue-section {
-  background-color: var(--brandPrimary-color);
+  background-color: var(--pageSecondary-color);
 }
