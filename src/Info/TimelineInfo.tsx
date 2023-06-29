@@ -7,6 +7,25 @@ const timelineInfo: { title: string; desc: React.ReactNode; date: string }[] = [
     date: "September 1, 2020",
   },
   {
+    title: "Created WordChecker",
+    desc: (
+      <React.Fragment>
+        A python command line application that efficiently compares large
+        strings for matches in a database. Running in linear time, it creates a
+        node-tree of letters that follow paths indicating if a word has
+        validity.{" "}
+        <a
+          href="https://github.com/JoshBergman/WordChecker"
+          target="_blank"
+          rel="noreferrer"
+        >
+          WordChecker
+        </a>
+      </React.Fragment>
+    ),
+    date: "September 7, 2022",
+  },
+  {
     title: "Started Independently Learning Web Development",
     desc: "After realizing traditional education has some significant shortcomings I start to take matters into my own hands and started learnig the fundamentals of web development.",
     date: "September 15, 2022",
@@ -109,6 +128,154 @@ const timelineInfo: { title: string; desc: React.ReactNode; date: string }[] = [
       </React.Fragment>
     ),
     date: "November 5, 2022",
+  },
+  {
+    title: "Deployed Portfolio V2",
+    desc: (
+      <React.Fragment>
+        My first porfolio was about the third real react app I made, and it
+        showed. Expierence shows in your work and thats ultimately why I decided
+        on making yet another version after this.{" "}
+        <a
+          href="https://github.com/JoshBergman/Portfolio-v2"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Repo
+        </a>
+      </React.Fragment>
+    ),
+    date: "Feb 2, 2023",
+  },
+  {
+    title: "Created TPM",
+    desc: (
+      <React.Fragment>
+        TPM as in "Terrible Password Manager". Made with python it was a quick
+        solution for a personal password manager that stores passwords in a
+        "secure" plaintext file{" "}
+        <a
+          href="https://github.com/JoshBergman/TerriblePasswordManager"
+          target="_blank"
+          rel="noreferrer"
+        >
+          TPM Repo
+        </a>
+        . Quickly afterwards I created a Node app to do the same thing but with
+        SHA-256 encryption. Though - I have not made this Repo public as I do
+        not want to risk exposing any security flaws.{" "}
+      </React.Fragment>
+    ),
+    date: "March 23, 2023",
+  },
+  {
+    title: "Created TSA",
+    desc: (
+      <React.Fragment>
+        TSA as in "Too Simple Analytics". I wanted a method to keep track of
+        when my content is getting new views. This is when I created TSA which
+        is a very simple analytics tracker. The tracker was also made with a
+        companion app that outputs some useful analytic information along with
+        new views.
+        <a
+          href="https://github.com/JoshBergman/TooSimpleAnalytics"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Too Simple Analytics
+        </a>
+        ,{" "}
+        <a
+          href="https://github.com/JoshBergman/TooSimpleAnalyticsCheck"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Companion App
+        </a>
+      </React.Fragment>
+    ),
+    date: "April 8, 2023",
+  },
+  {
+    title: "Deployed Algo Example",
+    desc: (
+      <React.Fragment>
+        Algo Example is an educational resource for learning about data
+        structures and algorithms. Algo Example has algorithm visualization,
+        interaction, and even games. Check it out at{" "}
+        <a href="https://algoexample.com/" target="_blank" rel="noreferrer">
+          AlgoExample.com
+        </a>
+        . Algo Example is a passion project made in collaboration with a long
+        time peer. I personally overheaded the creation, execution, and
+        deployment of this app.{" "}
+        <a
+          href="https://github.com/JoshBergman/Algorithms-Explained"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Algo Example Repo
+        </a>{" "}
+      </React.Fragment>
+    ),
+    date: "May 7, 2023",
+  },
+  {
+    title: "Created Quick Budget Tool V2",
+    desc: (
+      <React.Fragment>
+        This is the updated version I mention earlier. QuickBudgetTool is great
+        for quickly making a budget. Its not intended to be an investment
+        tracker or dedicated financial app. The tool strives when used for
+        breaking down how your cash flows on a month-to-month basis. Check it
+        out:{" "}
+        <a href="https://quickbudgettool.com/" target="_blank" rel="noreferrer">
+          QuickBudgetTool.com
+        </a>
+        . Repos:{" "}
+        <a
+          href="https://github.com/JoshBergman/QBT2"
+          target="_blank"
+          rel="noreferrer"
+        >
+          QBT2 Frontend Repo
+        </a>
+        ,{" "}
+        <a
+          href="https://github.com/JoshBergman/qbt2-backend"
+          target="_blank"
+          rel="noreferrer"
+        >
+          QBT2 Backend Repo
+        </a>
+      </React.Fragment>
+    ),
+    date: "June 18, 2023",
+  },
+  {
+    title: "Deployed Portfolio V3",
+    desc: (
+      <React.Fragment>
+        While the second version of my porfolio is not bad, it was not up to the
+        standard I strive to set for myself. This is why you are on the third
+        iteration of my portfolio.{" "}
+        <a
+          href="https://github.com/JoshBergman/Portfolio-V3"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Repo for this site
+        </a>{" "}
+        and the live:{" "}
+        <a href="https://joshuabergman.dev/" target="_blank" rel="noreferrer">
+          JoshuaBergman.dev
+        </a>{" "}
+        (You are already on this site... You better not click that.) **Note:
+        There are many more projects I have not covered, feel free to check out
+        my GitHub to see more.
+      </React.Fragment>
+    ),
+    date: "July 1, 2023",
   },
 ];
 
