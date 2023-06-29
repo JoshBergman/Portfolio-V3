@@ -7,6 +7,7 @@ import Header from "./Components/UI/Header/Header";
 import Landing from "./Components/Sections/Landing/Landing";
 import Projects from "./Components/Sections/Projects/Projects";
 import Timeline from "./Components/Sections/Timeline/Timeline";
+import About from "./Components/Sections/AboutMe/About";
 
 function App() {
   useEffect(() => {
@@ -19,6 +20,7 @@ function App() {
       <Landing />
       <Timeline />
       <Projects />
+      <About />
     </div>
   );
 }
