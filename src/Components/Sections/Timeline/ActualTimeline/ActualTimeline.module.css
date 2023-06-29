@@ -47,7 +47,7 @@
   margin: 50px 0;
   padding: 0;
   border-radius: 5px;
-  box-shadow: -4px -4px 5px #656565 inset, 4px 4px 3px #656565 inset;
+  box-shadow: -2px -2px 5px #656565 inset, 2px 2px 3px #656565 inset;
   background-color: var(--brandLightPrimary-color);
   color: var(--brandPrimary-color);
   width: clamp(200px, 80%, 600px);

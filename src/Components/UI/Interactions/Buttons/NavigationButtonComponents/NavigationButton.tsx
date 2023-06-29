@@ -6,7 +6,7 @@ interface AnchorButtonProps {
   children: string;
   href: string;
   realLink?: boolean;
-  fontSize?: number;
+  fontSize?: number | string;
 }
 
 const NavigationButton = ({

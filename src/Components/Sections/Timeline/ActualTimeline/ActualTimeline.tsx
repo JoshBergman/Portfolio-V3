@@ -7,7 +7,7 @@ import TimelineItem from "./TimelineComponents/TimelineItem";
 import FullItemDesc from "./TimelineComponents/FullItemDesc";
 
 const ActualTimeline = () => {
-  const [timelineDisplayState, setTimelineDisplayState] = useState(2);
+  const [timelineDisplayState, setTimelineDisplayState] = useState(12);
 
   const renderTimelineItems = () => {
     const events = timelineInfo.concat([]);

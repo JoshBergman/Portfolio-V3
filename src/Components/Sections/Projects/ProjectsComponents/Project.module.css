@@ -1,0 +1,69 @@
+.singleProjectContainer {
+  background-color: brown;
+
+  height: fit-content;
+  width: clamp(350px, 60%, 1000px);
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.projInfoContainer {
+  background-color: yellow;
+  width: 40%;
+}
+
+.projTitle {
+  font-size: large;
+  text-align: center;
+  margin: 4px;
+  text-decoration: underline;
+  color: var(--brandPrimary-color);
+}
+
+.techStackItem {
+  background-color: black;
+  color: var(--brandLightPrimary-color);
+  font-size: 12px;
+  width: fit-content;
+  padding: 3px;
+}
+
+.techStackContainer {
+  background-color: aquamarine;
+  margin: 0 auto;
+  width: 80%;
+
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.projDesc {
+  color: green;
+  font-size: medium;
+  text-align: left;
+  width: 80%;
+  margin: 10px auto;
+}
+
+.buttonsContainer {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.imgContainer {
+  background-color: aqua;
+  width: 40%;
+
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  width: 100%;
+}
