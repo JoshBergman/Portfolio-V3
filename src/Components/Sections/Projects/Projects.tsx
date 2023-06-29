@@ -6,7 +6,8 @@ import SingleProject from "./ProjectsComponents/SingleProject";
 const Projects = () => {
   const getProjects = () => {
     const returnProjects: React.ReactNode[] = [];
-    projectsInfo.forEach((proj) =>
+    projectsInfo.forEach((proj, i) => {
+      const thisProjIsAlt = i % 2 !== 0 ? true : false;
       returnProjects.push(
         <SingleProject
           title={proj.title}
@@ -14,9 +15,11 @@ const Projects = () => {
           techStack={proj.techStack}
           buttons={proj.buttons}
           imgSrc={proj.imgSrc}
+          key={proj.title}
+          alternate={thisProjIsAlt}
         />
-      )
-    );
+      );
+    });
 
     return returnProjects;
   };

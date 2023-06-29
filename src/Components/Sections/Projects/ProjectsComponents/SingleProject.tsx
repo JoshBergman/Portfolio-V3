@@ -4,17 +4,21 @@ import { IProjectsInfo } from "../../../../Info/ProjectsInfo";
 import TechStackItem from "./TechStackItem";
 import ProjButton from "./ProjButton";
 
-const SingleProject = (
-  { title, techStack, desc, buttons, imgSrc }: IProjectsInfo,
-  alternate: boolean
-) => {
+const SingleProject = ({
+  title,
+  techStack,
+  desc,
+  buttons,
+  imgSrc,
+  alternate,
+}: IProjectsInfo) => {
   const renderTechStack = () => {
     if (techStack.length <= 0) {
       return;
     }
     const returnStack: React.ReactNode[] = [];
     techStack.forEach((tech) => {
-      returnStack.push(<TechStackItem tech={tech} />);
+      returnStack.push(<TechStackItem tech={tech} key={tech} />);
     });
 
     return returnStack;
@@ -23,16 +27,24 @@ const SingleProject = (
   const getButtons = () => {
     const returnButtons: React.ReactNode[] = [];
     if (buttons.live !== "") {
-      returnButtons.push(<ProjButton link={buttons.live}>Live</ProjButton>);
+      returnButtons.push(
+        <ProjButton key="btn-live" link={buttons.live}>
+          Live
+        </ProjButton>
+      );
     }
     if (buttons.frontend !== "") {
       returnButtons.push(
-        <ProjButton link={buttons.frontend}>Frontend Repo</ProjButton>
+        <ProjButton key="btn-frntd" link={buttons.frontend}>
+          Frontend Repo
+        </ProjButton>
       );
     }
     if (buttons.backend !== "") {
       returnButtons.push(
-        <ProjButton link={buttons.backend}>Backend Repo</ProjButton>
+        <ProjButton key="btn-bcknd" link={buttons.backend}>
+          Backend Repo
+        </ProjButton>
       );
     }
     return returnButtons;
@@ -40,30 +52,23 @@ const SingleProject = (
 
   return (
     <div className={styles.singleProjectContainer}>
-      {!alternate && (
-        <div className={styles.imgContainer}>
-          <img
-            className={styles.img}
-            src={imgSrc}
-            alt={"Project Thumbnail - " + title}
-          />
-        </div>
-      )}
-      <div className={styles.projInfoContainer}>
+      <div
+        className={
+          alternate ? styles.altProjInfoContainer : styles.projInfoContainer
+        }
+      >
         <h5 className={styles.projTitle}>{title}</h5>
         <div className={styles.techStackContainer}>{renderTechStack()}</div>
         <p className={styles.projDesc}>{desc}</p>
         <div className={styles.buttonsContainer}>{getButtons()}</div>
       </div>
-      {alternate && (
-        <div className={styles.imgContainer}>
-          <img
-            className={styles.img}
-            src={imgSrc}
-            alt={"Project Thumbnail - " + title}
-          />
-        </div>
-      )}
+      <div className={alternate ? styles.altImgContainer : styles.imgContainer}>
+        <img
+          className={styles.img}
+          src={imgSrc}
+          alt={"Project Thumbnail - " + title}
+        />
+      </div>
     </div>
   );
 };

@@ -1,9 +1,7 @@
 .singleProjectContainer {
-  background-color: brown;
-
   height: fit-content;
-  width: clamp(350px, 60%, 1000px);
-  margin: 0 auto;
+  width: 70%;
+  margin: 50px auto;
 
   display: flex;
   justify-content: space-evenly;
@@ -11,31 +9,46 @@
   align-items: center;
 }
 
-.projInfoContainer {
-  background-color: yellow;
-  width: 40%;
+.projInfoContainer,
+.altProjInfoContainer,
+.imgContainer,
+.altImgContainer {
+  width: 500px;
+  margin: 10px;
+}
+
+.altImgContainer {
+  transform: translateX(-618px);
+}
+
+.altProjInfoContainer {
+  transform: translateX(618px);
 }
 
 .projTitle {
-  font-size: large;
+  font-size: 20px;
   text-align: center;
-  margin: 4px;
+  margin: 0px;
   text-decoration: underline;
   color: var(--brandPrimary-color);
 }
 
 .techStackItem {
-  background-color: black;
+  background-color: var(--brandDarkPrimary-color);
   color: var(--brandLightPrimary-color);
-  font-size: 12px;
+
   width: fit-content;
-  padding: 3px;
+  margin: 4px;
+
+  font-size: 12px;
+  padding: 1px 2px;
+  border: 2px solid black;
 }
 
 .techStackContainer {
-  background-color: aquamarine;
   margin: 0 auto;
-  width: 80%;
+  width: fit-content;
+  max-width: 90%;
 
   display: flex;
   justify-content: space-evenly;
@@ -44,11 +57,11 @@
 }
 
 .projDesc {
-  color: green;
+  color: black;
   font-size: medium;
   text-align: left;
-  width: 80%;
-  margin: 10px auto;
+  width: 100%;
+  margin: 0px auto -20px auto;
 }
 
 .buttonsContainer {
@@ -56,14 +69,13 @@
   margin: 0 auto;
 }
 
-.imgContainer {
-  background-color: aqua;
-  width: 40%;
-
+.imgContainer,
+.altImgContainer {
   display: flex;
   align-items: center;
 }
 
 .img {
   width: 100%;
+  border: 2px solid var(--brandSecondary-color);
 }
