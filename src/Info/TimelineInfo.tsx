@@ -27,7 +27,7 @@ const timelineInfo: { title: string; desc: React.ReactNode; date: string }[] = [
   },
   {
     title: "Started Independently Learning Web Development",
-    desc: "After realizing traditional education has some significant shortcomings I start to take matters into my own hands and started learnig the fundamentals of web development.",
+    desc: "After realizing traditional education has some significant shortcomings I start to take matters into my own hands and started learning the fundamentals of web development.",
     date: "September 15, 2022",
   },
   {
@@ -36,7 +36,7 @@ const timelineInfo: { title: string; desc: React.ReactNode; date: string }[] = [
       <React.Fragment>
         Created the first version of QuickBudgetTool.com. I later came around to
         completely redoing this app, as the initial version was very rough
-        (First ever web app). Can be found in projects section, or at{" "}
+        (First ever web app). The remake can be found in projects section, or at{" "}
         <a href="https://quickbudgettool.com" target="_blank" rel="noreferrer">
           QuickBudgetTool.com
         </a>
@@ -176,7 +176,7 @@ const timelineInfo: { title: string; desc: React.ReactNode; date: string }[] = [
         when my content is getting new views. This is when I created TSA which
         is a very simple analytics tracker. The tracker was also made with a
         companion app that outputs some useful analytic information along with
-        new views.
+        new views.{" "}
         <a
           href="https://github.com/JoshBergman/TooSimpleAnalytics"
           target="_blank"
