@@ -1,3 +1,7 @@
+.link {
+  transition: all 0.6s ease-in-out;
+}
+
 .btnSlide {
   background-color: transparent;
   color: var(--brandPrimary-color);

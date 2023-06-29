@@ -7,6 +7,7 @@ interface AnchorButtonProps {
   href: string;
   realLink?: boolean;
   fontSize?: number | string;
+  style?: React.CSSProperties;
 }
 
 const NavigationButton = ({
@@ -14,6 +15,7 @@ const NavigationButton = ({
   href,
   realLink,
   fontSize,
+  style,
 }: AnchorButtonProps) => {
   if (realLink === true) {
     return (
@@ -29,7 +31,7 @@ const NavigationButton = ({
   }
 
   return (
-    <Link smooth={true} to={href}>
+    <Link smooth={true} to={href} style={style} className={styles.link}>
       <button
         className={styles.btnSlide}
         style={fontSize ? { fontSize: fontSize } : {}}
