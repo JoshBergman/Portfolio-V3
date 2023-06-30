@@ -1,15 +1,18 @@
 import { IconType } from "react-icons";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaSuperpowers } from "react-icons/fa";
 import {
   TbBrandPython,
   TbBrandCpp,
   TbBrandMongodb,
   TbBrandTypescript,
+  TbBrandGraphql,
 } from "react-icons/tb";
-import { SiJest, SiExpress } from "react-icons/si";
+import { SiJest, SiExpress, SiRedux, SiWebpack } from "react-icons/si";
 import { VscTerminalCmd } from "react-icons/vsc";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { IoIosHammer } from "react-icons/io";
+import { BsGit } from "react-icons/bs";
+import { MdOutlineMiscellaneousServices } from "react-icons/md";
 
 const skillsInfo: { title: string; skills: [IconType, string][] }[] = [
   {
@@ -27,6 +30,10 @@ const skillsInfo: { title: string; skills: [IconType, string][] }[] = [
     title: "What I'm Good At",
     skills: [
       [TbBrandPython, "Python"],
+      [BsGit, "Git"],
+      [SiRedux, "Redux"],
+      [SiWebpack, "Webpack"],
+      [TbBrandMongodb, "Mongosh"],
       [IoIosHammer, "NOSQL"],
     ],
   },
@@ -35,6 +42,9 @@ const skillsInfo: { title: string; skills: [IconType, string][] }[] = [
     skills: [
       [VscTerminalCmd, "Batch Scripting"],
       [BiLogoPostgresql, "SQL"],
+      [TbBrandGraphql, "GraphQL"],
+      [MdOutlineMiscellaneousServices, "MSW"],
+      [FaSuperpowers, "Supertest"],
       [TbBrandCpp, "C++"],
     ],
   },
