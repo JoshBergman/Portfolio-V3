@@ -43,7 +43,7 @@
 .techStackContainer {
   margin: 0 auto;
   width: fit-content;
-  max-width: 90%;
+  max-width: 98%;
 
   display: flex;
   justify-content: space-evenly;
@@ -55,13 +55,14 @@
   color: black;
   font-size: medium;
   text-align: left;
-  width: 100%;
+  width: 80%;
   margin: 0px auto -20px auto;
 }
 
 .buttonsContainer {
   width: fit-content;
-  margin: 0 auto;
+  font-size: 18px;
+  margin: 30px auto;
 }
 
 .imgContainer {
@@ -74,4 +75,27 @@
   border-radius: 4px;
   box-shadow: 2px 2px 5px var(--brandDarkPrimary-color),
     -2px -2px 5px var(--brandDarkPrimary-color);
+}
+
+@media (max-width: 600px) {
+  .singleProjectContainer,
+  .altSingleProjectContainer {
+    width: 96%;
+  }
+  .projDesc {
+    width: 96%;
+  }
+  .buttonsContainer {
+    font-size: 13px;
+    margin: 25px auto;
+  }
+  .techStackContainer {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 390px) {
+  .buttonsContainer {
+    font-size: 10px;
+  }
 }

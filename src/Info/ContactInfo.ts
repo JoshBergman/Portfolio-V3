@@ -17,7 +17,7 @@ const contactInfo: IContactInfo = {
   },
   Resume: {
     link: "https://joshuabergman.dev/Resources/resume.pdf",
-    text: "View or Download My Resume",
+    text: "View or Download Resume",
     // Add your up-to-date resume in PDF format to:
     // {portoflioRoot}/public/Resources/resume.pdf
 

@@ -68,4 +68,7 @@
     overflow: hidden;
     overflow-y: scroll;
   }
+  .baseLine {
+    width: 90%;
+  }
 }

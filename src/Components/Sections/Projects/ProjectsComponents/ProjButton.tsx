@@ -7,12 +7,7 @@ interface IProjButtonProps {
 
 const ProjButton = ({ link, children }: IProjButtonProps) => {
   return (
-    <NavigationButton
-      realLink={true}
-      href={link}
-      fontSize={"18px"}
-      padding={"5px 10px"}
-    >
+    <NavigationButton realLink={true} href={link} padding={"5px 10px"}>
       {children}
     </NavigationButton>
   );

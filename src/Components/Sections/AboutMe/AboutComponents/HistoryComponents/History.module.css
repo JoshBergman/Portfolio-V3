@@ -43,3 +43,9 @@
   transform: translate(-8px, 2px);
   cursor: pointer;
 }
+
+@media (max-width: 390px) {
+  .historyContainer {
+    width: 100%;
+  }
+}

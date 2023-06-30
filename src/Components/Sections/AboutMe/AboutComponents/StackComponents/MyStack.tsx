@@ -46,6 +46,7 @@ const MyStack = () => {
 
   return (
     <div className={styles.skillsContainer}>
+      <h5 className={styles.heading}>Technical Skills</h5>
       <div className={styles.tabsContainer}>{getTabs()}</div>
       <SkillsCard>{getListItems()}</SkillsCard>
     </div>

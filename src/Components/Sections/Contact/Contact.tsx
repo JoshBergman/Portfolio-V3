@@ -10,6 +10,7 @@ import EmailButton from "../../UI/Interactions/Buttons/ContactButtons/EmailButto
 import GitHubButton from "../../UI/Interactions/Buttons/ContactButtons/GitHubButton";
 import LinkedInButton from "../../UI/Interactions/Buttons/ContactButtons/LinkedInButton";
 import ResumeButton from "../../UI/Interactions/Buttons/ContactButtons/ResumeButton";
+import Copyright from "../../UI/Miscellaneous/Copyright/Copyright";
 
 const Contact = () => {
   return (
@@ -52,6 +53,7 @@ const Contact = () => {
           <FaArrowUp />
         </Link>
       </div>
+      <Copyright />
     </div>
   );
 };

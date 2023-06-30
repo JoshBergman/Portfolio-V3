@@ -18,8 +18,8 @@ export interface IProjectsInfo {
 const projectsInfo: IProjectsInfo[] = [
   {
     title: "Quick Budget Tool",
-    techStack: ["MERN", "Ecmascript", "Jest", "Supertest", "MSW"],
-    desc: "QuickBudgetTool is great for quickly making a budget. Its not intended to be an investment tracker or dedicated financial app. The tool strives when used for breaking down how your cash flows on a month-to-month basis.",
+    techStack: ["MERN", "Jest", "ES", "MSW"],
+    desc: "QuickBudgetTool is great for quickly making a budget. It's not intended to be an investment tracker or dedicated financial app. The tool strives when used for breaking down how your cash flows on a month-to-month basis.",
     buttons: {
       live: "https://quickbudgettool.com/",
       frontend: "https://github.com/JoshBergman/QBT2",

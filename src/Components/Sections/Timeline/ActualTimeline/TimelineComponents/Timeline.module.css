@@ -123,4 +123,9 @@
   .titleContainer {
     transform: translate(-2px, -100px);
   }
+
+  .timelineBlipBtn {
+    width: 15px;
+    height: 20px;
+  }
 }
