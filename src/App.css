@@ -19,6 +19,6 @@
 }
 
 .aboutMeP {
-  width: clamp(250px, 80%, 800px);
+  width: clamp(250px, 85%, 750px);
   margin: 10px auto;
 }

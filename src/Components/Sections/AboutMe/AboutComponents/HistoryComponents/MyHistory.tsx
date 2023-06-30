@@ -15,11 +15,11 @@ const MyHistory = () => {
     <div className={styles.historyContainer}>
       <h4 className={styles.historyHeading}>About Me</h4>
       <h5 className={styles.historyParagraphHeading}>TLDR</h5>
-      <p className={styles.historyParagraph}>{historyInfo.tldrDesc}</p>
+      {historyInfo.tldrDesc}
       {showingMoreState && (
         <React.Fragment>
           <h5 className={styles.historyParagraphHeading}>Actually About Me</h5>
-          <p className={styles.historyParagraph}>{historyInfo.myDesc}</p>
+          {historyInfo.myDesc}
         </React.Fragment>
       )}
       <button onClick={toggleShowingMore} className={styles.showMore}>

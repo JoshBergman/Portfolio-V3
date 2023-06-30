@@ -4,7 +4,7 @@ import LandingText from "./LandingText";
 
 const Landing = () => {
   return (
-    <div className="white-section">
+    <div id="landing" className="white-section">
       <div className={styles.verticalAlignContainer}>
         <div className={styles.titleContainer}>
           <LandingText />

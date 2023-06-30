@@ -1,0 +1,52 @@
+.plugsContainer {
+  width: fit-content;
+  margin: 30px auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+.plugDiv {
+  font-size: 20px;
+  width: fit-content;
+  white-space: nowrap;
+  height: 40px;
+}
+
+.btnContainer {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  transform: translate(0, 8px);
+}
+
+.plugLink {
+  text-decoration: none;
+  color: black;
+  margin: 2px;
+}
+
+.plugStrong {
+  color: var(--brandPrimary-color);
+  margin-left: 10px;
+  text-decoration: underline;
+}
+
+.backToTopBtn {
+  background-color: var(--brandPrimary-color);
+  color: var(--brandLightPrimary-color);
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+
+  border-radius: 100%;
+  padding: 10px;
+  transition: all 0.13s ease-in-out;
+  margin: 60px auto 30px auto;
+}
+
+.backToTopBtn:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
