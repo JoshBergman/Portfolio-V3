@@ -1,9 +1,9 @@
 .timelineBlipBtn {
-  width: 20px;
-  height: 20px;
+  width: 24px;
+  height: 24px;
 
-  background-color: var(--brandLightPrimary-color);
-  border: 1px solid black;
+  background-color: var(--brandPrimary-color);
+  border: 1px solid var(--brandLightPrimary-color);
 
   border-radius: 100%;
   transition: all 0.1s ease-in-out;
@@ -11,10 +11,9 @@
 
 .timelineBlipBtn:hover,
 .timelineBlipBtn:focus {
-  width: 25px;
-  height: 25px;
   cursor: pointer;
   background-color: var(--brandSecondary-color);
+  border-color: black;
 }
 
 .itemTitle {

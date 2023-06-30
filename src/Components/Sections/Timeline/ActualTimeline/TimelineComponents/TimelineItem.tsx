@@ -33,7 +33,7 @@ const TimelineItem = ({
 
   const buttonBackground = currHighlighted
     ? "var(--brandSecondary-color)"
-    : "var(--brandLightPrimary-color)";
+    : "var(--brandPrimary-color)";
   const buttonStyle = {
     backgroundColor: buttonBackground,
   };

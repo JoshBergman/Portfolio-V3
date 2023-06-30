@@ -51,18 +51,20 @@ const SingleProject = ({
   };
 
   return (
-    <div className={styles.singleProjectContainer}>
-      <div
-        className={
-          alternate ? styles.altProjInfoContainer : styles.projInfoContainer
-        }
-      >
+    <div
+      className={
+        alternate
+          ? styles.altSingleProjectContainer
+          : styles.singleProjectContainer
+      }
+    >
+      <div className={styles.projInfoContainer}>
         <h5 className={styles.projTitle}>{title}</h5>
         <div className={styles.techStackContainer}>{renderTechStack()}</div>
         <p className={styles.projDesc}>{desc}</p>
         <div className={styles.buttonsContainer}>{getButtons()}</div>
       </div>
-      <div className={alternate ? styles.altImgContainer : styles.imgContainer}>
+      <div className={styles.imgContainer}>
         <img
           className={styles.img}
           src={imgSrc}
