@@ -1,7 +1,7 @@
 .skillsContainer {
   width: fit-content;
   height: fit-content;
-  margin: 0;
+  margin: 10px auto 60px auto;
 
   background-color: var(--brandDarkPrimary-color);
   padding: 10px;

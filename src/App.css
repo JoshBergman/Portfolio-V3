@@ -8,6 +8,7 @@
 .white-section,
 .blue-section {
   background-color: var(--pagePrimary-color);
+  padding: 20px 0;
 }
 
 .blue-section {
@@ -15,4 +16,9 @@
     var(--pageSecondary-color),
     var(--pageSecondaryFadeTo-color)
   );
+}
+
+.aboutMeP {
+  width: clamp(250px, 80%, 800px);
+  margin: 10px auto;
 }

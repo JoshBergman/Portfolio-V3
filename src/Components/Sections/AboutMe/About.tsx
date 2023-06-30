@@ -7,7 +7,7 @@ import MyStack from "./AboutComponents/StackComponents/MyStack";
 const About = () => {
   return (
     <div id="about" className="blue-section">
-      <SectionHeading offWhite={false}>About Me</SectionHeading>
+      <SectionHeading offWhite={false}>About</SectionHeading>
       <div className={styles.aboutContainer}>
         <MyStack />
         <MyHistory />

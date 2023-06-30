@@ -94,7 +94,7 @@ const timelineInfo: { title: string; desc: React.ReactNode; date: string }[] = [
     desc: (
       <React.Fragment>
         Originially hosted on this very domain. As my third app it showed. I
-        later replaced this portfolio once I had more expierence, as it did not
+        later replaced this portfolio once I had more experience, as it did not
         meet my quality standards. Ironically the replacement eventually no
         longer met my quality standards either and was also replaced. You are on
         V3 currently.{" "}
@@ -113,7 +113,7 @@ const timelineInfo: { title: string; desc: React.ReactNode; date: string }[] = [
     title: "First Web Development Contract",
     desc: (
       <React.Fragment>
-        My first professional front-end expierence. I saw the complete design,
+        My first professional front-end experience. I saw the complete design,
         construction, and deployment of a website for a local frame shop. Can be
         found in projects sections, or at:{" "}
         <a
@@ -134,7 +134,7 @@ const timelineInfo: { title: string; desc: React.ReactNode; date: string }[] = [
     desc: (
       <React.Fragment>
         My first porfolio was about the third real react app I made, and it
-        showed. Expierence shows in your work and thats ultimately why I decided
+        showed. experience shows in your work and thats ultimately why I decided
         on making yet another version after this.{" "}
         <a
           href="https://github.com/JoshBergman/Portfolio-v2"

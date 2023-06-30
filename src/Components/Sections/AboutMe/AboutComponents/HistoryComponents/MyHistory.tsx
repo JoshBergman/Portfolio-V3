@@ -1,5 +1,42 @@
+import React, { useState } from "react";
+import { BsArrow90DegUp } from "react-icons/bs";
+
+import styles from "./History.module.css";
+import historyInfo from "../../../../../Info/History";
+
 const MyHistory = () => {
-  return <div>History</div>;
+  const [showingMoreState, setShowingMoreState] = useState(false);
+
+  const toggleShowingMore = () => {
+    setShowingMoreState((prevState) => !prevState);
+  };
+
+  return (
+    <div className={styles.historyContainer}>
+      <h4 className={styles.historyHeading}>About Me</h4>
+      <h5 className={styles.historyParagraphHeading}>TLDR</h5>
+      <p className={styles.historyParagraph}>{historyInfo.tldrDesc}</p>
+      {showingMoreState && (
+        <React.Fragment>
+          <h5 className={styles.historyParagraphHeading}>Actually About Me</h5>
+          <p className={styles.historyParagraph}>{historyInfo.myDesc}</p>
+        </React.Fragment>
+      )}
+      <button onClick={toggleShowingMore} className={styles.showMore}>
+        {showingMoreState ? (
+          <React.Fragment>
+            <BsArrow90DegUp />
+            Show Less
+          </React.Fragment>
+        ) : (
+          <React.Fragment>
+            Show More
+            <BsArrow90DegUp style={{ transform: "rotate(180deg)" }} />
+          </React.Fragment>
+        )}
+      </button>
+    </div>
+  );
 };
 
 export default MyHistory;
