@@ -1,5 +1,6 @@
 .headerContainer {
-  position: fixed;
+  position: absolute;
+  top: 0;
   width: 100%;
   z-index: 9999;
 }
@@ -21,6 +22,5 @@
     height: 50px;
     float: none;
     background-color: var(--brandLightPrimary-color);
-    border-bottom: 2px solid black;
   }
 }

@@ -59,7 +59,16 @@ const SingleProject = ({
       }
     >
       <div className={styles.projInfoContainer}>
-        <h5 className={styles.projTitle}>{title}</h5>
+        <h5 className={styles.projTitle}>
+          <a
+            href={buttons.live}
+            target="_blank"
+            rel="noreferrer"
+            className={styles.titleLink}
+          >
+            {title}
+          </a>
+        </h5>
         <div className={styles.techStackContainer}>{renderTechStack()}</div>
         <p className={styles.projDesc}>{desc}</p>
         <div className={styles.buttonsContainer}>{getButtons()}</div>

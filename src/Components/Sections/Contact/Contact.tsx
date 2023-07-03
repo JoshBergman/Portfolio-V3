@@ -50,7 +50,7 @@ const Contact = () => {
       </div>
       <div className={styles.backToTopBtn}>
         <Link smooth={true} to="landing">
-          <FaArrowUp />
+          <FaArrowUp className={styles.arrowIcon} />
         </Link>
       </div>
       <Copyright />

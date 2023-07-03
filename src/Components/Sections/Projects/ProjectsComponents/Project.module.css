@@ -22,10 +22,17 @@
 
 .projTitle {
   font-size: 20px;
-  text-align: center;
   margin: 0px;
-  text-decoration: underline;
   color: var(--brandPrimary-color);
+  text-align: center;
+}
+
+.titleLink {
+  color: inherit;
+}
+
+.titleLink:hover {
+  text-decoration: none;
 }
 
 .techStackItem {
