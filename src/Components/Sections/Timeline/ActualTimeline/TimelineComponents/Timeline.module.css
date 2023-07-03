@@ -1,6 +1,6 @@
 .timelineBlipBtn {
-  width: 24px;
-  height: 24px;
+  width: 20px;
+  height: 20px;
 
   background-color: var(--brandPrimary-color);
   border: 1px solid var(--brandLightPrimary-color);
@@ -14,36 +14,6 @@
   cursor: pointer;
   background-color: var(--brandSecondary-color);
   border-color: black;
-}
-
-.itemTitle {
-  transform: translate(-30px, -30px);
-  width: fit-content;
-  height: 20px;
-  white-space: nowrap;
-
-  padding: 6px;
-  border-radius: 5px;
-
-  font-size: 14px;
-
-  color: black;
-  background-color: var(--brandLightPrimary-color);
-  transition: all 0.3s ease-in-out;
-  font-family: Montserrat, arial, sans-serif;
-}
-
-.tail {
-  width: 5px;
-  border-radius: 2px;
-  background-color: var(--brandLightPrimary-color);
-  transition: all 0.2s ease-in-out;
-}
-
-.titleContainer {
-  display: absolute;
-
-  transform: translate(2px, -62px);
 }
 
 .descTitle,
@@ -76,7 +46,7 @@
   .descTitle,
   .descDate,
   .descDesc {
-    width: 96%;
+    width: 95%;
   }
   .descTitle {
     font-size: 18px;
@@ -86,16 +56,6 @@
   }
   .descDesc {
     font-size: 16px;
-  }
-  .itemTitle {
-    font-size: 13px;
-    white-space: pre-wrap;
-    height: 60px;
-    width: 160px;
-    transform: translate(-167px, 0);
-  }
-  .titleContainer {
-    transform: translate(2px, -100px);
   }
 }
 
@@ -110,22 +70,8 @@
     font-size: 14px;
     margin-left: 10px;
   }
-  .itemTitle {
-    font-size: 10px;
-  }
-  .itemTitle {
-    font-size: 12px;
-    white-space: pre-wrap;
-    height: 60px;
-    width: 120px;
-    transform: translate(-127px, 0);
-  }
-  .titleContainer {
-    transform: translate(-2px, -100px);
-  }
-
   .timelineBlipBtn {
     width: 15px;
-    height: 20px;
+    height: 15px;
   }
 }

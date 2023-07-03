@@ -1,0 +1,54 @@
+.masterContainer {
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 20px;
+}
+
+.title {
+  font-size: 18px;
+  text-align: center;
+}
+
+.titleDiv {
+  width: 300px;
+  height: 80px;
+}
+
+.btn {
+  background-color: transparent;
+  color: var(--brandLightPrimary-color);
+  border: 2px solid transparent;
+  border-radius: 15px;
+  font-size: 26px;
+
+  transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.063);
+  border-color: var(--brandLightPrimary-color);
+  transition: 0.02s ease-in-out;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 16px;
+  }
+  .titleDiv {
+    width: 200px;
+  }
+}
+
+@media (max-width: 390px) {
+  .title {
+    font-size: 14px;
+  }
+  .titleDiv {
+    width: 150px;
+  }
+}

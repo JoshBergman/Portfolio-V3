@@ -1,7 +1,4 @@
-import { useState } from "react";
-
 import styles from "./Timeline.module.css";
-import ItemTitle from "./ItemTitle";
 
 interface ITimelineItemProps {
   info: {
@@ -20,34 +17,25 @@ const TimelineItem = ({
   setDisplayState,
   displayState,
 }: ITimelineItemProps) => {
-  const [showTitleState, setShowTitleState] = useState(false);
   const currHighlighted = displayState === thisIndex ? true : false;
 
   const clickTimelineEventHandler = () => {
     setDisplayState(thisIndex);
   };
 
-  const toggleTitleState = () => {
-    setShowTitleState((prevState) => !prevState);
-  };
-
   const buttonBackground = currHighlighted
-    ? "var(--brandSecondary-color)"
-    : "var(--brandPrimary-color)";
+    ? "var(--brandDarkPrimary-color)"
+    : "var(--brandSecondary-color)";
   const buttonStyle = {
     backgroundColor: buttonBackground,
   };
 
   return (
-    <button
+    <div
       className={styles.timelineBlipBtn}
       onClick={clickTimelineEventHandler}
-      onMouseEnter={toggleTitleState}
-      onMouseLeave={toggleTitleState}
       style={buttonStyle}
-    >
-      {showTitleState && <ItemTitle title={info.title} />}
-    </button>
+    />
   );
 };
 

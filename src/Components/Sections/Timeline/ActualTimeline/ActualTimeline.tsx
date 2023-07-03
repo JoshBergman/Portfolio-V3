@@ -5,6 +5,7 @@ import timelineInfo from "../../../../Info/TimelineInfo";
 
 import TimelineItem from "./TimelineComponents/TimelineItem";
 import FullItemDesc from "./TimelineComponents/FullItemDesc";
+import ItemSelector from "./TimelineComponents/ItemSelector";
 
 const ActualTimeline = () => {
   const [timelineDisplayState, setTimelineDisplayState] = useState(12);
@@ -27,6 +28,11 @@ const ActualTimeline = () => {
   return (
     <div className={styles.verticalAlignContainer}>
       <div className={styles.breathingRoom}>
+        <ItemSelector
+          setDisplayState={setTimelineDisplayState}
+          currTitle={timelineInfo[timelineDisplayState].title}
+          infoLength={timelineInfo.length}
+        />
         <div className={styles.baseLine}>{renderTimelineItems()}</div>
       </div>
       <div className={styles.descBreathingRoom}>
