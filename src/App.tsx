@@ -6,9 +6,9 @@ import { addSiteView } from "./Private/AddView";
 import Header from "./Components/UI/Header/Header";
 import Landing from "./Components/Sections/Landing/Landing";
 import Projects from "./Components/Sections/Projects/Projects";
-import Timeline from "./Components/Sections/Timeline/Timeline";
 import About from "./Components/Sections/AboutMe/About";
 import Contact from "./Components/Sections/Contact/Contact";
+import Repos from "./Components/Sections/Repos/Repos";
 
 function App() {
   useEffect(() => {
@@ -19,7 +19,7 @@ function App() {
     <div className="page-control">
       <Header />
       <Landing />
-      <Timeline />
+      <Repos />
       <Projects />
       <About />
       <Contact />
