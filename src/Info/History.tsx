@@ -3,28 +3,34 @@ import React from "react";
 const historyInfo = {
   tldrDesc: (
     <p className="aboutMeP">
-      Hello, thank you for taking the time to view my portfolio. I am Joshua
-      Bergman, a frontend developer with full stack experience. As a developer I
-      strive to create minimalistic, clean, and intuitive apps. While I
-      specialize in the MERN stack I enjoy using and learning about new
-      technologies and the utility they can enable.
+      Hello and thank you for visiting my portfolio. I'm Joshua Bergman, a full
+      stack developer. My goal is to create clean and intuitive applications,
+      both in code and in presentation. I'm passionate about creating software
+      solutions that solve problems and save people time.
     </p>
   ),
   myDesc: (
     <React.Fragment>
       <p className="aboutMeP">
-        My passion for technology, and more specifically programming started as
-        a child after learning to create mods for Minecraft. Ever since learning
-        how to customize mods I have been hooked on programming, as I realized
-        it was as much about engineering as anything else.
+        Over the past year, I've been dedicated to honing my developer skills,
+        which has led me to successfully tackle several large-scale projects.
+        Additionally, I've completed a freelance project and numerous side
+        projects, showcasing my ability to tackle complex challenges and deliver
+        innovative solutions.
       </p>
       <p className="aboutMeP">
-        I've always enjoyed the engineering process, as in: designing something,
-        building it out, improving it, building it again but better. I apply
-        this methodology to almost every aspect of my life, my hobbies also
-        reflect this process of always improving, such as: woodworking, cars,
-        gaming, and fitness. Although I enjoy trying new things, so I'm always
-        adding to the list.
+        My journey into technology and programming began in my childhood, when I
+        started creating mods for Minecraft. This early experience sparked my
+        enduring love for programming, which I've come to see as both an art and
+        an engineering discipline.
+      </p>
+      <p className="aboutMeP">
+        I've always had an affinity for the engineering process, whether it's
+        designing, building, improving, or starting fresh with a better version.
+        I apply this approach not only to my work but also to my hobbies, which
+        include woodworking, automotive projects, gaming, and maintaining a
+        healthy lifestyle. I'm always eager to explore new interests and expand
+        my horizons.
       </p>
     </React.Fragment>
   ),

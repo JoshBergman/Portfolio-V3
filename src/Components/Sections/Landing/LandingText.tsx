@@ -31,7 +31,7 @@ const LandingText = () => {
         Hi I'm <strong className={styles.strong}>Josh.</strong>
       </h1>
       <h2 className={styles.landingText} style={text2Style}>
-        I'm a front end developer.
+        I'm a full stack developer.
       </h2>
     </React.Fragment>
   );
