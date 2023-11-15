@@ -1,7 +1,8 @@
 // import MikesFrameService from "./ProjectsPhotos/MikesFrameService.png";
 import AutoCL from "./ProjectsPhotos/AutoCL.png";
 import AlgoExample from "./ProjectsPhotos/AlgoExample.png";
-import QuickBudgetTool from "./ProjectsPhotos/QuickBudgetTool.png";
+import TooSimpleAnalytics from "./ProjectsPhotos/TooSimpleAnalytics.png";
+// import QuickBudgetTool from "./ProjectsPhotos/QuickBudgetTool.png";
 
 export interface IProjectsInfo {
   title: string;
@@ -18,9 +19,20 @@ export interface IProjectsInfo {
 
 const projectsInfo: IProjectsInfo[] = [
   {
+    title: "Too Simple Analytics",
+    techStack: ["React", "TS", "Node", "Express", "MongoDB"],
+    desc: "Too Simple Analytics started out as a personal script for tracking views of my projects. After a while of using this program I started to desire additional features, of which I couldn’t find for a reasonable price from an existing solution. Too Simple Analytics aims to provide a meaningful feature set for an affordable price all while focusing on ease-of-use, privacy, and speed.",
+    buttons: {
+      live: "https://toosimpleanalytics.com/",
+      frontend: "https://github.com/JoshBergman/TooSimpleAnalytics-Frontend",
+      backend: "https://github.com/JoshBergman/TooSimpleAnalytics-Backend",
+    },
+    imgSrc: TooSimpleAnalytics,
+  },
+  {
     title: "Auto CL",
     techStack: ["React", "TS", "Node", "Express"],
-    desc: "AI-driven Cover Letter Generator with a user-centric focus. Leveraged machine learning to quickly generate personalized cover letters based on minimal user input. Facilitates a seamless transition for users from the intricacies of cover letter composition, enabling them to concentrate on articulating their qualifications as a strong match for the role.",
+    desc: "Auto CL stands for “Auto Cover-Letter”. It is a lightweight AI web app that bridges the gap between templated cover letters and time-consuming original cover letters. The application allows you to focus on your connection to a company and takes the focus off of writing.",
     buttons: {
       live: "https://autocl-abb1d.web.app",
       frontend: "https://github.com/JoshBergman/AutoCoverLetter",
@@ -28,17 +40,17 @@ const projectsInfo: IProjectsInfo[] = [
     },
     imgSrc: AutoCL,
   },
-  {
-    title: "Quick Budget Tool",
-    techStack: ["MERN", "Jest", "ES", "MSW"],
-    desc: "QuickBudgetTool excels at rapidly crafting budgets, emphasizing simplicity and speed. While it doesn't serve as an investment tracker or specialized financial application, its strength lies in dissecting your month-to-month cash flow.",
-    buttons: {
-      live: "https://quickbudgettool.com/",
-      frontend: "https://github.com/JoshBergman/QBT2",
-      backend: "https://github.com/JoshBergman/qbt2-backend",
-    },
-    imgSrc: QuickBudgetTool,
-  },
+  // {
+  //   title: "Quick Budget Tool",
+  //   techStack: ["MERN", "Jest", "ES", "MSW"],
+  //   desc: "QuickBudgetTool excels at rapidly crafting budgets, emphasizing simplicity and speed. While it doesn't serve as an investment tracker or specialized financial application, its strength lies in dissecting your month-to-month cash flow.",
+  //   buttons: {
+  //     live: "https://quickbudgettool.com/",
+  //     frontend: "https://github.com/JoshBergman/QBT2",
+  //     backend: "https://github.com/JoshBergman/qbt2-backend",
+  //   },
+  //   imgSrc: QuickBudgetTool,
+  // },
   {
     title: "Algo Example",
     techStack: ["React", "TS", "Collaborative"],

@@ -23,7 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # analytics
-/src/Private
+# /src/Private
 
 # host
 /firebase.json
