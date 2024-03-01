@@ -4,11 +4,11 @@ const historyInfo = {
   tldrDesc: (
     <p className="aboutMeP">
       Hello and thank you for visiting my portfolio. I'm Joshua Bergman. I like
-      dogs and cows. I'm passionate about software that has a very clear value
-      and enhances people's lives and saves them time.
+      cows. I'm passionate about creating solutions (solving puzzles) and seeing
+      those solutions manifest into real value.
     </p>
   ),
-  myDesc: (
+  devPathDesc: (
     <React.Fragment>
       <p className="aboutMeP">
         Over the past two years, I've been dedicated to honing my developer
@@ -18,17 +18,21 @@ const historyInfo = {
         projects, including a company site for a local frame shop.
       </p>
       <p className="aboutMeP">
-        My journey into software began in my childhood, when I started creating
-        mods for Minecraft. This early experience sparked my passion for
-        programming, which I've come to see as both an art and an engineering
-        discipline.
+        I've been into tech my entire life, I even built my first computer
+        single-handedly as a 10 year old! My passion for programming also began
+        in my childhood, when I started creating mods for Minecraft. This early
+        experience sparked my passion for software when I started to see the
+        near infinite potential of what can be solved using tech.
       </p>
+    </React.Fragment>
+  ),
+  myDesc: (
+    <React.Fragment>
       <p className="aboutMeP">
-        Speaking of engineering I've always had an affinity for the engineering
-        process, whether it's designing, building, improving, or starting fresh
-        with a better version. I apply this approach not only to my work but
-        also to my hobbies, which includes cars, gaming, fishing, kayaking,
-        traveling, fitness, and living a healthy(ish) lifestyle.
+        Outside of tech, I enjoy many hobbies, such as: cars, guitar, fitness,
+        and the outdoors. I also love animals, such as my dog, a Bichon Frise,
+        Rosie. And finally, yes, I do enjoy cows. My favorite breed of cattle is
+        the Texas Longhorn. 🐄
       </p>
     </React.Fragment>
   ),

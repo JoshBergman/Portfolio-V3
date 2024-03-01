@@ -21,7 +21,7 @@ const projectsInfo: IProjectsInfo[] = [
   {
     title: "Too Simple Analytics",
     techStack: ["React", "TS", "Node", "Express", "MongoDB"],
-    desc: "Too Simple Analytics started out as a personal script for tracking views of my projects. After a while of using this program I started to desire additional features, of which I couldn’t find for a reasonable price from an existing solution. Too Simple Analytics aims to provide a meaningful feature set for an affordable price all while focusing on ease-of-use, privacy, and speed.",
+    desc: `Too Simple Analytics is an analytics platform for developers. TSA provides a meaningful feature set including: advanced view tracking, powerful data filtering tools, dynamic data visualization, smart view counting scripts, and more. See it in action using the guest credentials: email: “guest@email.com” password: “guest”.`,
     buttons: {
       live: "https://toosimpleanalytics.com/",
       frontend: "https://github.com/JoshBergman/TooSimpleAnalytics-Frontend",
@@ -32,7 +32,7 @@ const projectsInfo: IProjectsInfo[] = [
   {
     title: "Auto CL",
     techStack: ["React", "TS", "Node", "Express"],
-    desc: "Auto CL stands for “Auto Cover-Letter”. It is a lightweight AI web app that bridges the gap between templated cover letters and time-consuming original cover letters. The application allows you to focus on your connection to a company and takes the focus off of writing.",
+    desc: "Auto CL stands for “Auto Cover-Letter”. It is a lightweight AI web app that bridges the gap between templated cover letters and time-consuming original cover letters. The application allows you to generate a unique structure for every cover letter. While not a replacement to writing a strong cover letter, Auto CL gives you a (usually) strong foundation to work off of.",
     buttons: {
       live: "https://autocl-abb1d.web.app",
       frontend: "https://github.com/JoshBergman/AutoCoverLetter",
@@ -40,21 +40,10 @@ const projectsInfo: IProjectsInfo[] = [
     },
     imgSrc: AutoCL,
   },
-  // {
-  //   title: "Quick Budget Tool",
-  //   techStack: ["MERN", "Jest", "ES", "MSW"],
-  //   desc: "QuickBudgetTool excels at rapidly crafting budgets, emphasizing simplicity and speed. While it doesn't serve as an investment tracker or specialized financial application, its strength lies in dissecting your month-to-month cash flow.",
-  //   buttons: {
-  //     live: "https://quickbudgettool.com/",
-  //     frontend: "https://github.com/JoshBergman/QBT2",
-  //     backend: "https://github.com/JoshBergman/qbt2-backend",
-  //   },
-  //   imgSrc: QuickBudgetTool,
-  // },
   {
     title: "Algo Example",
     techStack: ["React", "TS", "Collaborative"],
-    desc: "Algo Example is an educational platform dedicated to the exploration of data structures and algorithms. Offering interactive algorithm visualization, engaging user interactions, and interactive games, Algo Example represents a passionate collaborative effort. Personally spearheading the app's creation, execution, and deployment, I've taken a hands-on role in every facet of its development.",
+    desc: "Algo Example is an educational platform dedicated to the exploration of data structures and algorithms. Offering interactive algorithm visualization, engaging user interactions, and interactive games, Algo Example represents a passionate collaborative effort.",
     buttons: {
       live: "https://algoexample.com/",
       frontend: "https://github.com/JoshBergman/Algorithms-Explained",

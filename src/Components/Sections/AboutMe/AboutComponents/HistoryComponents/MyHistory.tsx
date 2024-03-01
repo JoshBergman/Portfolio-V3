@@ -18,6 +18,10 @@ const MyHistory = () => {
       {historyInfo.tldrDesc}
       {showingMoreState && (
         <React.Fragment>
+          <h5 className={styles.historyParagraphHeading}>
+            My Developer Journey
+          </h5>
+          {historyInfo.devPathDesc}
           <h5 className={styles.historyParagraphHeading}>Actually About Me</h5>
           {historyInfo.myDesc}
         </React.Fragment>
